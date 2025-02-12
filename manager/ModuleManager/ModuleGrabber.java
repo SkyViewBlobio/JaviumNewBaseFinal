@@ -2,7 +2,7 @@ public class @ModuleManager extends @ClassLoadHelper implements Javium {
 
 
         public void onModuleEnable();
-        .stream(listening, Modules);
+        .stream(@ModuleManager , listening , Modules);
         .streamline(doListen; -> Modules()
         
          <@PathImport>?\src\Modules>getClazz.requeste (return)

@@ -6,13 +6,14 @@ public class @PingManager extends @ClassLoadHelper implements Javium {
         @Export
 
         public void onConnectionPing(WorldPlayerPing event) {
-            .stream(WorldPlayerPing);
+            .stream(WorldPlayerPing, (use; [ListenerConnectionChange]doReturn)continue);
             .streamline(doAccess.instanceof > PlayerEntity*);
             do (doStream.getValue(<connection!>doReturn)(valueGetter[?value]cacheValue(true);
 
-            if (valueGetter) returns; *exception)doAbord(true));
+            if (valueGetter) returns; -> *exception)doAbord(true));
 
             else (doSmartCalc.cacheValue) -> (getResult)doApply{clazzMapper
             (atEntry.clazz)doStream{@Export}true}; 
             // export to classes.
         }
+    

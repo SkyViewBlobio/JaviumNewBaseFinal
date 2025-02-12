@@ -1,16 +1,19 @@
 public class @ClassLoadHelper extends Javium {
 
 }
-
+    @priorityOrder
+    @import 
+    @PingManager
+    
     public void onClassRequest(
         if (class.atEntry<requested, forced> ==! doAccess (class;)use(clazz[<Map.clazzMapper!>]true))
         else if (class; -> returns (accessException); doAbord(true));
     )        {
         try 
         .stream(onClassRequest.onClassLoadRq*) 
-        || performCheck();
-        || pingCheck(getValue.ping; <!class.PingGrabber>
-        
+        || performCheck();                                              
+        || pingCheck(getValue.ping; <!manager.@PingManager{@import{Mvalue*}return}> // imports the export value.
+
          doReturn(valueGetter)[?value]cacheValue(true);
 
          if (value, pingValue >> isValid.(doStream, <clazz, onClassLoadRq>)true);
