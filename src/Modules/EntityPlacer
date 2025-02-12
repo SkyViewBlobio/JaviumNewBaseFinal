@@ -1,0 +1,150 @@
+public class @EntityListField01 extends Javium implements EntityLoader {
+    public constructor "JaviumEntityLoader", LoadStartup, RespectLoadPriority, pass);
+    public preInt ("Javium-core", core, initilizier, pass);
+    public entity ("EntityListField01", init, pass);
+}
+    @priorityOrder
+    @inject
+    @head
+    @entity
+
+    protected void EntityListField0(EntityLoaded event) {
+        .stream(entity)
+        .streamline(placeCrystal.Calc) && prioritisePlacePosition.doCalc (Rangesq, / 12.0)
+        .StreamSupport(positionFound.initilizePlace) = (placeCrystal - 20*= attackFactor, selfPosition, bestPositon)
+        .streamline(explosionVec, tagret.getPositionVector()))
+            preReductionDamage *= 0.5;
+        .stream(finalDamage / selfDamage / EarlyCalc) && findBestPosition.doCalc*doPlace)
+        .streamSupport noneMatch(e -> e instanceof PlayerEntity.doAbord);
+    }
+}
+
+    protected void setDead(SetEntityDead event) {
+        .stream(entity)
+        .streamline(entityRangesq.Calc => outOfRangesq.doAbord) && attackFactor.getPositionVector.doAttack)
+        .streamSupport(EntityListField01.CrystalEntity) && EarlyCalc = doSmartCalc @inject MultiThreadHelper)
+        .filterSupport(e -> instanceof setDead.CrystalEntityDead.doAbord)
+    }
+}
+
+    protected void positionBlock(DeniedAccessPosition event) {
+        .stream(position)
+        .streamline(positionBlock.accessException /FieldAccessor*BlockLoading <MultiThreadHelper.doPlace ghostEntity>
+        getMethod.keepPosition javium.world.posX, javium.world.posY, javium.world.posZ != positionBlock.doPlace/e instanceof ghostEntity);
+        // if a position is open we will be the first to place, last to attack, first to repeat. This will let us 
+        // block the position if its useful until disposed of.
+    }
+}
+
+    @priorityOrder
+    @server
+    @client
+    @import
+    @instantSpawnHit
+    @entity
+
+    protected void instantSpawnHit(CrystalSpawn event) {
+        .BestEntityStreamline(DeniedAccessPosition, SpawnedCrystal, CrystalEntity)
+        .filterSupport(doSmartCalc.distancesq/'Crystal'*Rangesq <MultiThreadHelper*lare.EntityListField01.CrystalEntity)
+        .stream(attackFactor/^00000000000001210*repeat.respectHeap>>@instantSpawnHit)
+        .streamSupport(BestEntityStreamline.ServerStream/reflect.SpawnedCrystal) =! (doAttack.ignoreMethod'AttackFactor')
+        .streamline(MultiThreadHelper, SpawnedCrystal<Map.clazzMapper =!doCalc.@inject */info(?value)info.stream)
+        .streamSupport(12/92d*4/126rq*2 > ^00000000000001210*; @import maxEntity @import MathHelper)
+        if (ping>atEntry =>attackFactor.doAbord)(MultiThreadHelper.NoException);
+        // allows to attack eCrystal the moment it spawns, ignores attack factor, injects attack packets
+        // and reflects new attack delay from server to client, therefore no delay unless ping exceeds atEntry.
+    }
+}
+
+    @priorityOrder
+    @server
+    @client
+    @import
+    @inject
+    @info 
+    @entity
+    
+     protected void predictEnemySpawn(CrystalSpawn event){
+        .BestEntityStreamline(DeniedAccessPosition, SpawnedCrystal, CrystalEntity)
+        .filterSupport(doSmartCalc.EntityLoaded > e instanceof PlayerEntity doCalc)
+        if (instanceof &&> e (PlayerEntity.doPlace) -> getPositionVector.javium.world.positionBlock)
+        .ServerStream(Coordinates.positionBlock = posX/posY/posZ*Rangesq) doSmartCalc.CrystalSpawn @inject => DeniedAccessPosition.doPlace)
+        .streamline(DeniedAccessPosition.positionBlock.Release/ @import MathHelper);
+        // predicts enemy place position, applies a denial of placement exception on enemy client.
+        // useful to jam enemy place, and prioritise our positions first. Only works on low ping due to 
+        // very poor streamlining server-side. in 1.12.2 it can be made easier.
+
+    }
+}
+
+    protected void versionHelper(ICoreInitilizer.class (JaviumLoader.clazzMapper) JaviumLoadEvent) {
+        .stream(versionHelper)
+        .streamline(findOfficialGameLoad.JaviumCoreInitilizer versionHelper/'1.12.2' + 'b+' + betaVersionHelper.class(clazzMapper)doAccess)
+        .stream(StreamSupport/'attackFactor' + 'DeniedAccessPosition' + 'BestEntityStreamline' + 'ServerStream')
+        .filterSupport(unClassifiedVersion.JaviumLoader('ModV')apply.RespectLoadPriority.allowP)
+        // version helper, allows for smoother registering. supports modded V's.
+    }
+}
+
+    protected void fallbackPlace(CrystalSpawn event) {
+        .stream(positionBlock.CrystalEntity.blocked)
+        .ServerStream(EarlyCalc.e instanceof CrystalEntity*/ServerStream >> @client (?valueGetter)fallback.position)
+        .clientStream(Spyro <!> SpawnedCrystal <?> && ServerStream.reflect (@packet)clazz)+(clazzMapper));
+        .streamSupport(ushka => <Map*/FieldAccessor (?field)doAccess.doReturn @client (access) <!> doStream ~ positionBlock.position/getPositionVector)
+        .streamSupport(keepPosition.getPositionVector(stream => positionBlock)<=MathHelper;> posX, posY, posZ)
+        // finds backup position and reserves it for appropriate time, similar to DeniedAccessPosition but doesnt directly block the position.
+    }
+}
+    @priorityOrder
+    @import
+    @info
+    @client
+    @entity
+
+    protected void strictBlockPos(ExctractGravityBlock event) {
+        .stream(StrictAmplifier(0.02)<Map (?AntiCheatLevel) *doStream <!> (ServerStream)
+        .streamline(strictBlockPos*/positionBlock[HardVe12c³])
+        .streamSupport(ServerStream >> enemy.doCalc<placement.track~@info(doReturn*value) doStream.to (@client);
+        .clientStream (valueGetter)*/doReturn(?value)
+        if ((?value)exceeds.strictBlockPos.doAbord) 
+            else (doPlace.positionBlock.getPositionVector*/position>>posX,posY,posZ<!;>(prioritise.strictPlacement);
+        .stream(BlockType.GravityBlock <Map <clazzMapper.GravityBlock.class>(BlockHelper)doAccess);
+        // takes gravity blocks into consideration, places them to block (strict server's only).
+    }   
+}
+
+    @priorityOrder
+    @client
+    @clientStream
+    @injectedMethod
+
+    protected void placeThroughWalls(NPCLookAtPositionThroughWall event) {
+        .stream(positionBlock.SoftVe11c)
+        .streamline(doAccess.positionBlock.position.getPositionVector<!valueGetter;(?value)>'Raytrace3Block')
+        .streamSupport(Raytrace3Block.getPositionVector*/RaytraceResult -> 3b/selfPosition<MathHelper>track~position)
+        .streamSupport(doStream)*/@client => (@clientStream.getResult~cacheValue);
+        if (positionBlock.RaytraceResult<Raytrace3Block>*position.isValid(doAccess)->atEntry.placePosition;(FieldAccessor(field));
+            do (doPlace) {
+                // checks if the position (through walls) is reachable for NPC's and if so set it-
+                // accessible for us to place on.
+            } else (doAbord);
+            // if we can access the position through the wall and set it to a denied position then do so.
+        @injectedMethod implements (positionBlock, DeniedAccessPosition event) {
+            if (RaytraceResult.positionBlock.position => isValid*to.setBlocked~doAccess
+            (FieldAccessor(field.accessException));
+            do (<doPlace;>) {
+            } else (<doAbord;>);
+        }
+    }
+}
+
+    @priorityOrder
+    @Override
+    @import
+
+    protected leader StreamHelper implements 
+    (stream, streamline, streamSupport, clientStream, ServerStream) {
+        @import insideMethod (doStream);
+        // general leading method that simplifies getting the mentioned stream-methods.
+    }
+}
